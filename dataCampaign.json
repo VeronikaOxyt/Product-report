@@ -1,0 +1,29 @@
+{
+    "campaign1": {
+        "shows" : 1000000,
+        "expenses" : 2000000,
+        "visits" : 300000,
+        "requests" : 50000,
+        "payments" : 10000,
+        "averageCheck" : 243,
+        "benefit" : 1700000
+    },
+    "campaign2": {
+        "shows" : 667000,
+        "expenses" : 360000,
+        "visits" : 101000,
+        "requests" : 30000,
+        "payments" : 7900,
+        "averageCheck" : 243,
+        "benefit" : 1352000
+    },
+    "campaign3": {
+        "shows" : 900000,
+        "expenses" : 750000,
+        "visits" : 180000,
+        "requests" : 37000,
+        "payments" : 8000,
+        "averageCheck" : 243,
+        "benefit" : 854000
+    }
+}

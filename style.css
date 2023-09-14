@@ -1,0 +1,82 @@
+* {
+    font-family: Arial, sans-serif;
+    color: #232730;
+
+}
+
+select {
+    height: 27px;
+    padding: 4px;
+    margin-right: 50px;
+
+}
+select:hover {
+    border-color: rgb(39, 76, 97);
+}
+table {
+    font-size: 17px;
+    
+}
+table p {
+    font-size: 23px;
+    font-weight: 550;
+}
+td {
+    width: 200px;
+    padding-top: 10px;
+    border: 20px solid #ffffff;
+    background-color: #E3F4FA;
+    color: #333333;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.funnel {
+    margin-right: 50px;
+}
+.funnel div {
+    height: 50px;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.funnel p {
+    font-size: 23px;
+}
+.funnelMetrics {
+    margin-top: 48px;
+    margin-right: 80px;
+    margin-left: 60px;
+}
+.funnelMetrics p {
+    font-size: 18px;
+    margin-top: 38px;
+}
+#charts .funnel, .funnelMetrics, .calculateMetrics, .negative, .calculate  {
+    float: left;
+}
+.calculateMetrics {
+    margin-top: 45px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.calculateMetrics p {
+    margin-bottom: 31px;
+}
+.calculate p {
+    margin-bottom: 15px;
+}
+.calculate div {
+    height: 40px;
+    margin-bottom: 10px;
+}
+.negative div {
+    height: 40px;
+    margin-top: 200px;
+}
+#inference {
+    font-size: 23px;
+    width: 90%;
+}
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Отчет о рекламной кампании</title>
+</head>
+<body>
+    <header>
+        <h1>Отчет о рекламной кампании</h1>
+    </header>
+    
+    <section id="filters">
+        <h2>Фильтры:</h2>
+        <form>
+            <label for="site">Сайт:</label>
+            <select id="site" name="site">
+                <option value="site1">Сайт 1</option>
+            </select>
+
+            <label for="advertiser">Рекламодатель:</label>
+            <select id="advertiser" name="advertiser">
+                <option value="advertiser1">Рекламодатель 1</option>
+            </select>
+
+            <label for="creative">Креатив:</label>
+            <select id="creative" name="creative">
+                <option value="creative1">Креатив 1</option>
+            </select>
+
+            <label for="campaign">Рекламная кампания:</label>
+            <select id="campaign" name="campaign">
+                <option disabled selected value> выберите кампанию </option>
+                <option value="campaign1">Кампания 1</option>
+                <option value="campaign2">Кампания 2</option>
+                <option value="campaign3">Кампания 3</option>
+            </select>
+        </form>
+    </section>
+
+    <section id="metrics">
+        <h2>Метрики:</h2>
+        
+    </section>
+    <section id="charts">
+        <h2>Графики метрик:</h2>
+        <div class="funnel"></div>
+        <div class="diagram"></div>
+    </section>
+    <section id="inference"></section>
+    <footer>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
